@@ -14,20 +14,22 @@ All code contained inside class, also inside methods.
 
 “Boilerplate”
 
-‘’'java
+```java
+
 public class <same name as filename> {. //create a class with same name as file
 	public static void main(String[] args) {. //create main method that runs all the stuffs.
 		System.out.println(“Hello World!”);	
 	}
 }
-'''
+```
 
 To run in console: 
-'''java
+
+```java
 javac <file.java> 
 This compiles the code into an executable .class
 java <file> // name of file without the .java
-'''
+```
 
 Java get time; 
 Calendar.getInstance().get(Calendar.HOUR_OF_DAY) - gets an instance of the calendar object and then “gets” the hour of day - 24hr format-  
